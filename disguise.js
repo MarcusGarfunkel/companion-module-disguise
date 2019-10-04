@@ -127,6 +127,7 @@ instance.prototype.actions = function(system) {
 
 		'fade_up': { label: 'Master Brightness - Fade up' },
 		'fade_down': { label: 'Master Brightness - Fade down' },
+		'hold'	:{ label: 'Hold' },
 
 		'volume': {
 			label: 'Master Volume - Set',
@@ -171,6 +172,7 @@ instance.prototype.action = function(action) {
 		'brightness': '/d3/showcontrol/brightness',
 		'fade_up': '/d3/showcontrol/fadeup',
 		'fade_down': '/d3/showcontrol/fadedown',
+		'hold':	'/d3/showcontrol/hold',
 
 		'cue': '/d3/showcontrol/cue',
 		'return_to_start': '/d3/showcontrol/returntostart',
