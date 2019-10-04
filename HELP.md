@@ -13,3 +13,9 @@ This module sends default OSC controls to the d3/disguise server. Remember to se
 * Next track
 * Master brightnes - Fade up
 * Master brightnes - Fade down
+
+Todo by Marcus:
+* Hold
+
+Desired by Marcus:
+* instance feedback for cue number
